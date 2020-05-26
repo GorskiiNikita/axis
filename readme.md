@@ -1,4 +1,5 @@
 <h3>Развёртывание проекта</h3>
+
 - Клонируем репозиторий: <br>
     git clone https://github.com/GorskiiNikita/axis.git <br>
     cd axis <br>
@@ -19,6 +20,7 @@
 
 
 <h3>Работа с api</h3>
+
 - Получить все записи: <br>
      /api/posts/ <br>
      
