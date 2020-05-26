@@ -25,7 +25,9 @@
     /api/posts/?format=json - получить json <br>
     /api/posts/?format=xlsx - получить xlsx <br>
 - Фильтрация по дате. В строке запроса передаются параметры start_date и end_date. Можно передать один из параметров, тогда фильтрация будет от/до заданного параметра и до начала/конца. <br>
-    /api/posts/?start_date=2008-05-13&end_date=2008-05-16&format=json <br>
+    /api/posts/?start_date=2008-05-13&end_date=2008-05-16&format=json - Получить все записи с 13 мая 2008 года по 16 мая 2008 года <br>
+    /api/posts/?end_date=2008-05-16&format=json - Получить все записи от начала и до 16 мая 2008 года <br>
+    /api/posts/?start_date=2008-05-16&format=json - Получить все записи от 16 мая 2008 года и до конца <br>
 
 
 
