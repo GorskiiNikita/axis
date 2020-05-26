@@ -20,7 +20,8 @@
 
 <h3>Работа с api</h3>
 - Получить все записи: <br>
-    /api/posts/ <br>
+     /api/posts/ <br>
+     
 - Можно указать в строке запроса формат данных:  <br>
     /api/posts/?format=json - получить json <br>
     /api/posts/?format=xlsx - получить xlsx <br>
